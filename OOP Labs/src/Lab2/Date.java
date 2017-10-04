@@ -3,6 +3,11 @@ package Lab2;
 import java.util.Scanner;
 
 /**
+ * Public Class: Student
+ * Date last modified: 10/3/2017
+ */
+
+/**
  * Public class Date.
  */
 public class Date {
