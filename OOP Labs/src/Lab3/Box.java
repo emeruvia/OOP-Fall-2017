@@ -8,12 +8,12 @@ public class Box implements Package {
 	
 	@Override
 	public double cost() {
-		return 0;
+		return weight * 1.2;
 	}
 	
 	@Override
 	public void input(Scanner scanner) {
-		System.out.println("Please input the weight for the Box  (lbs)  : ");
+		System.out.print("Please input the weight for the Box  (lbs)  : ");
 		weight = scanner.nextDouble();
 		
 	}

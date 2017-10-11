@@ -6,14 +6,10 @@ import java.util.Scanner;
 public class Lab3 {
 	
 	public static Package load_a_package(Scanner scanner) {
-		
-		//Creates Object
 		Package pack = null;
-		//Randoms a number from 1 to 4
 		int rand = (new Random()).nextInt(4);
 		
 		switch(rand) {
-			//Assigns the value to the package object.
 			case 0:
 				pack = new Box();
 				break;
