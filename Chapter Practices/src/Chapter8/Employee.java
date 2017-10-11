@@ -3,6 +3,7 @@ package Chapter8;
 public class Employee {
   
   private static int count = 0;
+  
   private String firstName;
   private String lastName;
   
@@ -13,6 +14,10 @@ public class Employee {
     ++count;
     System.out.printf("Employee constructor: %s %s; count=%d%n",
         firstName, lastName, count);
+  }
+  
+  protected void finalize() {
+    count--;
   }
   
   public String getFirstName() {

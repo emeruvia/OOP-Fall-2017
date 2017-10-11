@@ -10,6 +10,12 @@ public class EmployeeTest {
     Employee e1 = new Employee("Susan", "Baker");
     Employee e2 = new Employee("Bob", "Blue");
     
+    e1 = null;
+    e2 = null;
+    System.gc();  //Explicitely invokes G-C
+    System.runFinalization();
+    System.out.println(Employee.getCount());
+    
     System.out.printf("%nEmployees after instantiation: %n");
     System.out.printf("via e1.getCount(): %d%n", e1.getCount());
     System.out.printf("via e1.getCount(): %d%n", e2.getCount());
