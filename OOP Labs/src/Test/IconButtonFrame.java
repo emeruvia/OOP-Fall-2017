@@ -1,4 +1,4 @@
-package HW1;
+package Test;
 
 import java.awt.FlowLayout;
 import java.awt.image.BufferedImage;
@@ -85,9 +85,11 @@ public class IconButtonFrame extends JFrame{
     
     public static void main( String args[] ){
         IconButtonFrame buttonFrame =
-                new IconButtonFrame("FGCU_logo.png");
+                new IconButtonFrame("C:\\Users\\EMG\\OneDrive\\OOP Fall " +
+                        "2017\\OOP Labs\\src\\HW1\\FGCU_logo.png");
         buttonFrame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
         buttonFrame.setSize( 275, 150 ); // set frame size
         buttonFrame.setVisible( true ); // display frame
     }
 }
+//C:\Users\EMG\OneDrive\Documents\OOP\OOP Labs\HW1\FGCU_logo.png
