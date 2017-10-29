@@ -85,11 +85,12 @@ public class IconButtonFrame extends JFrame{
     
     public static void main( String args[] ){
         IconButtonFrame buttonFrame =
-                new IconButtonFrame("C:\\Users\\EMG\\OneDrive\\OOP Fall " +
-                        "2017\\OOP Labs\\src\\HW1\\FGCU_logo.png");
+                new IconButtonFrame
+                        ("C:\\Users\\EMG\\OneDrive\\OOP-Fall-2017\\OOP " +
+                                "Labs\\src\\HW1\\FGCU_logo.png");
         buttonFrame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-        buttonFrame.setSize( 275, 150 ); // set frame size
+        buttonFrame.setSize( 165, 165 ); // set frame size
         buttonFrame.setVisible( true ); // display frame
     }
 }
-//C:\Users\EMG\OneDrive\Documents\OOP\OOP Labs\HW1\FGCU_logo.png
+//C:\Users\SumringaH\OneDrive\OOP-Fall-2017\OOP Labs\src\HW1\FGCU_logo.png
